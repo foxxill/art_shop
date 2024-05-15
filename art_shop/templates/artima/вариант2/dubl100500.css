@@ -1,0 +1,48 @@
+.parent {
+    border-radius: 20px;
+    background-color: rgba(192, 187, 173, 0.648)     ;
+    width: 720px;
+    height:300px;
+    padding: 5px;
+    display: flex;
+    border-style: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-image {
+    display:inline-block;   
+    background-image: url("вариант2/images copy/art.jpg");
+    background-size: cover;
+    height:250px;
+    width: 250px;
+    border: none;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.category-name {
+    display:inline-block;
+    height:350px;
+    width: 330px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+.b-text {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}

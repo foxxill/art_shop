@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "{% static 'css/stylee.css' %}" type="text/css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- <button type="button" class="search-button">
+            <p class="b-text">поиск</p>
+        </button> -->
+        <form>
+            <input type="search" placeholder="Найти...">
+        </form>
+        <button type="button" class="icon-button-art" onclick="window.location.href = 'base_category.html'">
+            <p class="b-text">арты</p>
+        <button type="button" class="button-profile" onclick="window.location.href = 'profile.html'">
+            <p>Профиль</p>
+        </button>
+        <button type="button" class="icon-button-sculp">
+            <p class="b-text">скульптуры</p>
+        </button>
+        <button type="button" class="icon-button-clothes">
+            <p class="b-text">одежда</p>
+        </button>
+        <button type="button" class="icon-button-jew">
+            <p class="b-text">украшения</p>
+        </button>
+        <button type="button" class="icon-button-toy">
+        <p class="b-text">игрушки</p>
+        </button>
+        <button type="button" class="icon-button-merch">
+            <p class="b-text">мерч</p>
+        </button>
+    </div>>
+</body>
+</html>
