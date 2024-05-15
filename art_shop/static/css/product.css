@@ -1,0 +1,84 @@
+.card {
+    border-color: rgb(50, 4, 4);
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: rgba(192, 187, 173, 0.434)     ;
+    width: 720px;
+    height:400px;
+    padding: 5px;
+    display: flex;
+    border-style: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    display:inline-block;   
+    background-image: url("images/art.jpg");
+    background-size: cover;
+    height:350px;
+    width: 350px;
+    border: none;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.description {
+    display:inline-block;
+    height:350px;
+    width: 330px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+.b-text {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.name {
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.product-image1 {
+    display:inline-block;   
+    background-image: url("images/boshka.jpg");
+    background-size: cover;
+    height:350px;
+    width: 350px;
+    border: none;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.product-image2 {
+    display:inline-block;   
+    background-image: url("images/crying.jpg");
+    background-size: cover;
+    height:350px;
+    width: 350px;
+    border: none;
+    border-radius: 15%;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
